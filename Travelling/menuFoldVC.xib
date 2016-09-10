@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A238m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="menuFoldVC" customModule="Travelling" customModuleProvider="target">
+            <connections>
+                <outlet property="menuFoldItemTable" destination="a7i-0M-8HR" id="jUb-Wb-vfg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="a7i-0M-8HR">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="a7i-0M-8HR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="01R-Nb-Rud"/>
+                <constraint firstAttribute="bottom" secondItem="a7i-0M-8HR" secondAttribute="bottom" id="MeT-TD-duE"/>
+                <constraint firstAttribute="trailing" secondItem="a7i-0M-8HR" secondAttribute="trailing" id="OqW-CS-jen"/>
+                <constraint firstItem="a7i-0M-8HR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="p9a-gR-hHv"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
